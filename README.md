@@ -1,2 +1,2 @@
 # annotation-io
-Notepad using React
+A notepad using ReactJS
