@@ -1,0 +1,19 @@
+#formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario input, button, textarea {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 5px solid #E3AC81;
+}
+
+#formulario button {
+    background-color: #E3AC81;
+    color: #ffffff;
+    font-weight: bold;
+}
