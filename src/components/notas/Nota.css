@@ -1,17 +1,18 @@
 #nota {
     border: 1px solid black;
     min-height: 200px;
-    margin: auto;
+    margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 0 2px 0px;
-    background-color: #eeeae6;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: none;
 }
 
 #nota header {
-    border-bottom: 1px solid black;
+
 }
 
 #nota header h2 {
@@ -21,7 +22,7 @@
 }
 
 #nota main{
-    text-align: justify;
+    text-align: center;
     padding: 0 10px;
 }
 
@@ -29,11 +30,22 @@
 #nota footer{
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid black;
 }
 
 #nota footer span{
     text-align: center;
     padding: 10px 0;
     font-weight: bold;
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+@media(min-width: 400px) {
+
+    #nota {
+        width: 400px;
+    }
+    
 }

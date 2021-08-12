@@ -7,14 +7,14 @@ class Nota extends Component {
         return (
             <div id="nota">
                 <header>
-                    <h2>Título</h2>
+                    <h2>{this.props.nota.titulo}</h2>
                 </header>
                 <main>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur ad quae temporibus animi autem minima necessitatibus, similique, explicabo impedit, molestiae velit quidem laborum odio deleniti cum? Sint sed accusantium omnis!</p>
+                    <p>{this.props.nota.texto}</p>
                 </main>
                 <footer>
-                    <span>Editar</span>
-                    <span>Excluir</span>
+                    <span id="editar">editar</span>
+                    <span id="excluir">excluir</span>
                 </footer>
             </div>
         );

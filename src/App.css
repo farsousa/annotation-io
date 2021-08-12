@@ -1,21 +1,14 @@
-#chama_formulario {
-    border: 1px solid #E3AC81;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #E3AC81;
-    box-shadow: 0 0 1px 1px #E3AC81;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 
-#chama_formulario:hover {
-}
+@media(min-width: 400px) {
 
-#chama_formulario p {
-    font-size: 40px;
+    #notas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
